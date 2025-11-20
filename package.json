@@ -1,0 +1,14 @@
+{
+  "name": "twilio-chatgpt-cyber-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "twilio": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
