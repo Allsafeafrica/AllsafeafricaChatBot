@@ -2,13 +2,14 @@
   "version": 2,
   "functions": {
     "api/webhook.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "now-php@1.0.0"
     }
   },
   "routes": [
     { "src": "/api/webhook", "dest": "/api/webhook.js" }
   ]
 }
+
 
 
 
